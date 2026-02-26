@@ -1,0 +1,14 @@
+:root {
+/* Colors Nature */
+    --green1: #143601;
+    --green2: #1A4301;
+    --green3: #245501;
+    --green4: #538D22;
+    --green5: #73A942;
+    --green6: #AAD576;
+/* Stylings*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+header, footer {
+ background-color: var(--green4);
+}
