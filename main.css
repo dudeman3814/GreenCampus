@@ -10,5 +10,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header, footer {
- background-color: var(--green4);
+    background-color: var(--green4);
+}
+header {
+    text-align: center;
+}
+footer {
+    
 }
