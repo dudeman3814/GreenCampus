@@ -1,20 +1,38 @@
 :root {
-/* Colors Nature */
+    /* Colors Nature */
     --green1: #143601;
     --green2: #1A4301;
     --green3: #245501;
     --green4: #538D22;
     --green5: #73A942;
     --green6: #AAD576;
-/* Stylings*/
+    /* Stylings*/
     font-family: Arial, Helvetica, sans-serif;
 }
-header, footer {
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+header,
+footer {
     background-color: var(--green4);
 }
+
 header {
     text-align: center;
 }
-footer {
-    
-}
+
+footer {}
