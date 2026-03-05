@@ -23,16 +23,22 @@ body {
 }
 
 main {
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 2vh;
     flex: 1;
 }
 
 header,
 footer {
     background-color: var(--green4);
+    color: var(--green1);
 }
 
 header {
     text-align: center;
 }
 
-footer {}
+footer {
+    text-align: center;
+}
