@@ -189,10 +189,6 @@ form input[type="reset"] {
 
 /* Tips Page */
 #tips-intro {
-    background-image: url('../pages/annie-spratt-hf2lPpUU-unsplash.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     padding: 4em 2em;
     border-radius: 8px;
     text-align: center;
