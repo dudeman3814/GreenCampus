@@ -196,13 +196,13 @@ form input[type="reset"] {
     padding: 4em 2em;
     border-radius: 8px;
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #tips-intro h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 1.3em;
 }
 
 #tips-intro p {
