@@ -1,13 +1,13 @@
-git checkout -b new-branch-name<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GreenCampus</title>
+    <title>Events - GreenCampus</title>
     <link rel="stylesheet" href="../style.css">
 </head>
-<body>git checkout -b new-branch-name
+<body>
     <header>
         <h1>Events</h1>
         <h3>
@@ -20,15 +20,24 @@ git checkout -b new-branch-name<!DOCTYPE html>
             </nav>
         </h3>
     </header>
+
     <main>
-    <h3><em>OUR MISSION</em></h3>
-        <P><em>CREATE A MORE SUSTAINABLE FUTURE</em></P>
-    </main>
-    <img src="Screenshot 2026-03-19 092739.png" alt="GreenCampus"> 
-       <h1>Sustainability Events</h1>
-    <title>join us in making a difference!</title>
-        <p>Date:24th april,2026. come one come all</p>
-            <h3>EVENT SCHEDULE</h3>
+        <!-- Event Details Section -->
+        <section id="event-details">
+            <article>
+                <h2>Sustainability Events</h2>
+                <p><em>Join us in making a difference!</em></p>
+                <h3>Our Mission</h3>
+                <p>Create a more sustainable future through collaborative action and shared knowledge.</p>
+                <p><strong>Date:</strong> 24th April, 2026</p>
+                <img src="Screenshot 2026-03-19 092739.png" alt="GreenCampus Event">
+            </article>
+        </section>
+
+        <!-- Event Schedule Section -->
+        <section id="event-schedule">
+            <article>
+                <h2>Event Schedule</h2>
             <div class="event-card">
                 <p><strong>10:00 AM - 11:00 AM</strong></p>
                 <p>Opening Ceremony and Keynote Speech</p>
@@ -53,29 +62,52 @@ git checkout -b new-branch-name<!DOCTYPE html>
                 <p><strong>4:00 PM - 5:00 PM</strong></p>
                 <p>Closing Remarks and Future Initiatives</p>
             </div>
-                <h3>Join Us in Making a Difference!</h3>
-        </div>
-        <p><em>maple grove clifton burton DE11 8DF united kingdom</em></p> 
-            <p><em>email: info@greenCampus.org</em>
-                Registration Link: 
-                <a href="https://www.greenCampus.org/register">Register Now</a>
-                <em>contact us: 0123456789</em>
-                 <form>
-               <input type="text" name="name" placeholder="Your Name">
-               <input type="reset" value="Reset">
-            </form>
-            <form>
-               <textarea>Your message</textarea>
-               <input type="submit" value="submit">
-            </form>
+            </article>
+        </section>
+
+        <!-- Location Info Section -->
+        <section id="location">
+            <article>
+                <h2>Location</h2>
+                <p><strong>Address:</strong></p>
+                <p>Maple Grove<br>Clifton Burton<br>DE11 8DF<br>United Kingdom</p>
+            </article>
+        </section>
+
+        <!-- Contact & Registration Section -->
+        <section id="contact-registration">
+            <article>
+                <h2>Contact & Registration</h2>
+                <p><strong>Email:</strong> <a href="mailto:info@greenCampus.org">info@greenCampus.org</a></p>
+                <p><strong>Phone:</strong> 0123456789</p>
+                <p>
+                    <a href="https://www.greenCampus.org/register" class="register-button">Register Now</a>
                 </p>
+
+                <h3>Send us a Message</h3>
+                <form>
+                    <div>
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div>
+                        <label for="message">Your Message:</label>
+                        <textarea id="message" name="message" placeholder="Enter your message" rows="5" required></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
     <footer>
-        <p>Copyright Faux Text:Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui dignissimos earum fugit
-            deserunt
-            expedita numquam
-            voluptate. Tenetur natus maxime architecto, mollitia libero cumque, aperiam, voluptas ex culpa perspiciatis
-            esse
-            optio?</p>
+        <p>Copyright &copy; GreenCampus 2026 | Contact: info@greenCampus.org</p>
     </footer>
 </body>
 </html>
