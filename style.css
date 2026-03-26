@@ -43,8 +43,12 @@ main {
 }
 
 section{
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-bottom: 2vh;
+}
+
+article p{
+    max-width: 60ch;
 }
 
 header,
@@ -59,6 +63,12 @@ header {
 
 footer {
     text-align: center;
+}
+
+footer p {
+    margin-left: 4vw;
+    margin-bottom: 2vh;
+    max-width: 40ch;
 }
 
 /* Navigation */
