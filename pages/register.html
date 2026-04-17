@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCampus Registration</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/logo.png">
+</head>
+
+<body>
+    <header>
+        <h1>Register for the Event</h1>
+        <h3>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="tips.html">Tips</a></li>
+                </ul>
+            </nav>
+        </h3>
+    </header>
+
+    <main>
+        <section id="event-registration">
+            <article class="event-card">
+                <h2>Quick Registration</h2>
+                <p>Fill in your details below to register for the GreenCampus sustainability event. This form is the same page you get when scanning the QR code on the events page.</p>
+                <form id="registration-form">
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" name="full-name" placeholder="Enter your name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div>
+                        <label for="organization">Organization / School</label>
+                        <input type="text" id="organization" name="organization" placeholder="Your organization or school">
+                    </div>
+                    <div>
+                        <label for="interest">What are you most excited to learn?</label>
+                        <textarea id="interest" name="interest" rows="4" placeholder="Tell us a little about your interest"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit Registration">
+                        <input type="reset" value="Clear Form">
+                    </div>
+                </form>
+                <p class="registration-note">Note: This page is built for demonstration. If you host this site, the QR code on the events page can link directly to this registration form.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright Faux: GreenCampus &copy;2026 <br> Contact Us Faux: tel +1 123-555-678</p>
+    </footer>
+
+    <script>
+        document.getElementById('registration-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            alert('Thank you! Your registration has been received.');
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
