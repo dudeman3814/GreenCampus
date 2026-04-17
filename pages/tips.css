@@ -1,0 +1,57 @@
+/* Tips Page */
+#tips-intro {
+    padding: 4em 2em;
+    border-radius: 8px;
+    text-align: center;
+    color: var(--black);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#tips-intro h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+#tips-intro p {
+    margin: 0.5em 0 0 0;
+    font-size: 0.9em;
+}
+#tips-intro p {
+    margin: 0.5em 0 0 0;
+    font-size: 1.2em;
+}
+        body {
+            background-image: url('./mockup-graphics-_mUVHhvBYZ0-unsplash.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .tips-grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            padding: 1rem 2rem 2rem;
+        }
+
+        .tips-card {
+            background: rgba(255, 255, 255, 0.92);
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            padding: 1.5rem;
+            line-height: 1.65;
+            color: #1a1a1a;
+        }
+
+        .tips-card h2 {
+            margin-top: 0;
+            color: #143601;
+        }
+
+        main > h1 {
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 2rem;
+            text-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+        }
