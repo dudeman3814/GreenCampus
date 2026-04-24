@@ -4,49 +4,49 @@
             "Title": "Opening Ceremony and Keynote Speech",
             "DateTime": "April 30th @ 10:00 AM - 11:00 AM",
             "Location": "Fake Event Venue",
-            "Summary": "Fake Event Description"
+            "Summary": "Kick off the conference with a keynote on global sustainability trends and the urgent need for climate action."
         },
         {
             "Title": "Panel Discussion: Innovations in Sustainability",
             "DateTime": "April 30th @ 11:15 AM - 12:30 PM",
             "Location": "Fake Event Venue",
-            "Summary": "Fake Event Description"
+            "Summary": "Experts discuss cutting-edge technologies in renewable energy, circular economy design, and green infrastructure."
         },
         {
             "Title": "Panel Discussion: Sustainable Living Practices",
             "DateTime": "April 30th @ 1:30 PM - 2:30 PM",
             "Location": "Fake Event Venue",
-            "Summary": "Fake Event Description"
+            "Summary": "A practical session on reducing personal carbon footprints through diet, transportation, and energy use."
         },
         {
-            "Title": "Placeholder",
-            "DateTime": "Placeholder",
-            "Location": "Placeholder",
-            "Summary": "Placeholder"
+            "Title": "Workshop: Zero-Waste Lifestyle",
+            "DateTime": "April 30th @ 2:45 PM - 3:45 PM",
+            "Location": "Green Hall A",
+            "Summary": "Interactive workshop teaching attendees how to minimize waste through reuse, composting, and mindful consumption."
         },
         {
-            "Title": "Placeholder",
-            "DateTime": "Placeholder",
-            "Location": "Placeholder",
-            "Summary": "Placeholder"
+            "Title": "Startup Pitch Session: Climate Tech",
+            "DateTime": "April 30th @ 4:00 PM - 5:00 PM",
+            "Location": "Innovation Hub",
+            "Summary": "Emerging startups present solutions tackling climate challenges, from carbon capture to sustainable agriculture."
         },
         {
-            "Title": "Placeholder",
-            "DateTime": "Placeholder",
-            "Location": "Placeholder",
-            "Summary": "Placeholder"
+            "Title": "Networking Session: Sustainability Leaders",
+            "DateTime": "April 30th @ 5:15 PM - 6:15 PM",
+            "Location": "Eco Lounge",
+            "Summary": "Connect with professionals, activists, and entrepreneurs working across the sustainability sector."
         },
         {
-            "Title": "Placeholder",
-            "DateTime": "Placeholder",
-            "Location": "Placeholder",
-            "Summary": "Placeholder"
+            "Title": "Talk: The Future of Renewable Energy",
+            "DateTime": "May 1st @ 10:00 AM - 11:00 AM",
+            "Location": "Main Auditorium",
+            "Summary": "An in-depth look at solar, wind, and emerging renewable technologies shaping the future energy landscape."
         },
         {
-            "Title": "Placeholder",
-            "DateTime": "Placeholder",
-            "Location": "Placeholder",
-            "Summary": "Placeholder"
+            "Title": "Closing Ceremony and Sustainability Awards",
+            "DateTime": "May 1st @ 4:00 PM - 5:00 PM",
+            "Location": "Main Auditorium",
+            "Summary": "Celebrating impactful projects and individuals making significant contributions to sustainability worldwide."
         }
     ]
 }
