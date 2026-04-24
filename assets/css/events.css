@@ -24,6 +24,20 @@
     background-color: var(--green6);
     border-left: 5px solid var(--green4);
     padding: 1.5em;
-    margin: 1em 0;
     border-radius: 5px;
+}
+
+/* Mobile first: ALWAYS 1 column */
+#events-container {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr;
+}
+
+/* Tablet + Desktop */
+@media (min-width: 600px) {
+    #events-container {
+        grid-template-columns: repeat(auto-fit,
+                minmax(clamp(18rem, 22vw, 24rem), 1fr));
+    }
 }
