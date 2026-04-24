@@ -28,33 +28,7 @@
             <div id="events-container"></div>
         </section>
     </main>
-    <script>
-        fetch('../assets/events.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                const container = document.getElementById('events-container');
-
-                data.events.forEach((event, index) => {
-                    const card = document.createElement('div');
-                    card.classList.add('event-card');
-                    card.id = `card${index}`;
-
-                    card.innerHTML = `
-                        <h3>${event.name}</h3>
-                        <p>${event.date}</p>
-                        <p>${event.time}</p>
-                    `;
-
-                    container.appendChild(card);
-                });
-            })
-            .catch(error => console.error('Failed to fetch data:', error));
-    </script>
+    <script src="../assets/js/events.js"></script>
     <footer>
         <p>Copyright Faux: GreenCampus &copy;2026 <br> Contact Us Faux: tel 01632960123</p>
     </footer>
