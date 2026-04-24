@@ -61,15 +61,15 @@ header {
     text-align: center;
 }
 
-header button {
+header .btn,
+header .btn:visited {
     background-color: var(--green3);
+    color: var(--green6);
     box-shadow: none;
     font-size: 1em;
-}
-
-header button a,
-header button a:visited {
-    color: var(--green6);
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
 footer {
