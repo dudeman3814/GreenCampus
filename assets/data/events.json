@@ -17,6 +17,36 @@
             "DateTime": "April 30th @ 1:30 PM - 2:30 PM",
             "Location": "Fake Event Venue",
             "Summary": "Fake Event Description"
+        },
+        {
+            "Title": "Placeholder",
+            "DateTime": "Placeholder",
+            "Location": "Placeholder",
+            "Summary": "Placeholder"
+        },
+        {
+            "Title": "Placeholder",
+            "DateTime": "Placeholder",
+            "Location": "Placeholder",
+            "Summary": "Placeholder"
+        },
+        {
+            "Title": "Placeholder",
+            "DateTime": "Placeholder",
+            "Location": "Placeholder",
+            "Summary": "Placeholder"
+        },
+        {
+            "Title": "Placeholder",
+            "DateTime": "Placeholder",
+            "Location": "Placeholder",
+            "Summary": "Placeholder"
+        },
+        {
+            "Title": "Placeholder",
+            "DateTime": "Placeholder",
+            "Location": "Placeholder",
+            "Summary": "Placeholder"
         }
     ]
 }
