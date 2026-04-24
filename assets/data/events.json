@@ -5,21 +5,18 @@
             "DateTime": "April 30th @ 10:00 AM - 11:00 AM",
             "Location": "Fake Event Venue",
             "Summary": "Fake Event Description",
-            "Tag": 0
         },
         {
             "Title": "Panel Discussion: Innovations in Sustainability",
             "DateTime": "April 30th @ 11:15 AM - 12:30 PM",
             "Location": "Fake Event Venue",
             "Summary": "Fake Event Description",
-            "Tag": 1
         },
         {
             "Title": "Panel Discussion: Sustainable Living Practices",
             "DateTime": "April 30th @ 1:30 PM - 2:30 PM",
             "Location": "Fake Event Venue",
             "Summary": "Fake Event Description",
-            "Tag": 0
         }
     ]
 }

@@ -12,9 +12,6 @@ function fetchJSON() {
 function drawCards(events) {
     const container = document.getElementById('events-container');
 
-    // Clear any existing content before drawing
-    container.innerHTML = "";
-
     // Loop through each event and create a card
     events.forEach((event, index) => {
         const card = document.createElement('div');
