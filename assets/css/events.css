@@ -1,0 +1,43 @@
+:root {
+    /* Color palettes to be generated/named using www.coolors.co */
+
+    /* Colors Nature */
+    --green1: #143601;
+    --green2: #1A4301;
+    --green3: #245501;
+    --green4: #538D22;
+    --green5: #73A942;
+    --green6: #AAD576;
+
+    /* Colors Grayscale */
+    --white: #FFFFFF;
+    --silver: #BFBFBF;
+    --gray: #808080;
+    --gunmetal: #404040;
+    --black: #000000;
+
+    /* Stylings*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.event-card {
+    background-color: var(--green6);
+    border-left: 5px solid var(--green4);
+    padding: 1.5em;
+    border-radius: 5px;
+}
+
+/* Mobile, max 1 column */
+#events-container {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr;
+}
+
+/* Tablet + Desktop, Max ~4 column */
+@media (min-width: 600px) {
+    #events-container {
+        grid-template-columns: repeat(auto-fit,
+                minmax(clamp(18rem, 22vw, 24rem), 1fr));
+    }
+}

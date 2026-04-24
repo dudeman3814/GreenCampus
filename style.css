@@ -61,17 +61,6 @@ header {
     text-align: center;
 }
 
-header .btn,
-header .btn:visited {
-    background-color: var(--green3);
-    color: var(--green6);
-    box-shadow: none;
-    font-size: 1em;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
 footer {
     text-align: center;
 }
@@ -93,10 +82,10 @@ ul {
 
 ul li {
     display: inline;
-    padding-inline: 1em;
+    padding-inline: 1vw;
 }
 
-/* Links */
+/* Links & Buttons */
 a {
     color: var(--green6);
 }
@@ -105,10 +94,13 @@ a:visited {
     color: var(--green1);
 }
 
-.event-card {
-    background-color: var(--green6);
-    border-left: 5px solid var(--green4);
-    padding: 1.5em;
-    margin: 1em 0;
-    border-radius: 5px;
+header .btn,
+header .btn:visited {
+    background-color: var(--green3);
+    color: var(--green6);
+    box-shadow: none;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 4px;
 }
