@@ -104,11 +104,3 @@ a {
 a:visited {
     color: var(--green1);
 }
-
-.event-card {
-    background-color: var(--green6);
-    border-left: 5px solid var(--green4);
-    padding: 1.5em;
-    margin: 1em 0;
-    border-radius: 5px;
-}
