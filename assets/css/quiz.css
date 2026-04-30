@@ -19,3 +19,33 @@
     /* Stylings*/
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-question {
+    font-weight: bold;
+}
+
+.quiz-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4vw;
+}
+
+label:has(.quiz-answer-true) {
+    color: var(--green3);
+    font-weight: bold;
+}
+
+label:has(.quiz-answer-false) {
+    color: rgb(155, 0, 0);
+    font-weight: bold;
+}
+
+.btn {}

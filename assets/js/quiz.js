@@ -22,13 +22,15 @@ function drawQuiz(quiz) {
 
         // Defines the HTML structure for each question
         div.innerHTML = `
-            <p class="quiz-question">${question.question}</p>
+            <p class="quiz-question">True or False? ${question.question}</p>
+            <span class="quiz-options">
             <label>
                 <input class="quiz-answer-true" type="radio" name="q${index}" value="true"> True
             </label>
             <label>
                 <input class="quiz-answer-false" type="radio" name="q${index}" value="false"> False
             </label>
+            </span>
         `;
 
         // Adds the question to the container
