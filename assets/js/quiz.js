@@ -64,8 +64,7 @@ function checkAnswers(quiz) {
         `You got ${score} out of ${quiz.length}`;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-
+function init() {
     fetchQuiz()
         .then(data => {
             quizData = data;
@@ -74,7 +73,10 @@ document.addEventListener('DOMContentLoaded', () => {
         .catch(error => {
             console.error('Failed to fetch quiz:', error);
         });
+
     document.getElementById('submit-answers').addEventListener('click', () => {
         checkAnswers(quizData);
     });
-});
+}
+
+init();
