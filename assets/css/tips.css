@@ -70,11 +70,3 @@
             margin-top: 0;
             color: var(--green1)
         }
-    footer {
-        text-align: center;
-        padding: 1em 0;
-        background-color: var(--green4);
-        color: var(--green1);
-        margin-bottom: 3dvh;
-        border-radius: 3dvh;
-    }
