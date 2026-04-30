@@ -1,46 +1,44 @@
 {
-    "quiz": {
-        "questions": [
-            {
-                "question": "Recycling Reduces Waste",
-                "answer": true
-            },
-            {
-                "question": "Plastic bottles can never be recycled",
-                "answer": false
-            },
-            {
-                "question": "Turning off the lights can save energy",
-                "answer": true
-            },
-            {
-                "question": "Littering helps keep the place clean",
-                "answer": false
-            },
-            {
-                "question": "Trees help clean the air",
-                "answer": true
-            },
-            {
-                "question": "Re-usable bags can be used many times",
-                "answer": true
-            },
-            {
-                "question": "Water should be wasted every day",
-                "answer": false
-            },
-            {
-                "question": "Paper can often be recycled",
-                "answer": true
-            },
-            {
-                "question": "Pollution is good for animals",
-                "answer": false
-            },
-            {
-                "question": "Recycling can help protect the environment",
-                "answer": true
-            }
-        ]
-    }
+    "quiz": [
+        {
+            "question": "Recycling Reduces Waste",
+            "answer": true
+        },
+        {
+            "question": "Plastic bottles can never be recycled",
+            "answer": false
+        },
+        {
+            "question": "Turning off the lights can save energy",
+            "answer": true
+        },
+        {
+            "question": "Littering helps keep the place clean",
+            "answer": false
+        },
+        {
+            "question": "Trees help clean the air",
+            "answer": true
+        },
+        {
+            "question": "Re-usable bags can be used many times",
+            "answer": true
+        },
+        {
+            "question": "Water should be wasted every day",
+            "answer": false
+        },
+        {
+            "question": "Paper can often be recycled",
+            "answer": true
+        },
+        {
+            "question": "Pollution is good for animals",
+            "answer": false
+        },
+        {
+            "question": "Recycling can help protect the environment",
+            "answer": true
+        }
+    ]
 }

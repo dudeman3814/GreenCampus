@@ -1,4 +1,7 @@
-function fetchAnswers() {
+// Stores quiz data globally so it can be used across functions rather than fetching everytime
+let quizData = [];
+
+function fetchQuiz() {
     return fetch('../assets/data/quiz.json')
         .then(response => {
             if (!response.ok) {
@@ -6,16 +9,72 @@ function fetchAnswers() {
             }
             return response.json();
         })
-        .then(data => data.answers);
+        .then(data => data.quiz);
 }
 
-function checkAnswers(){
-    //* 
-    // USER INPUTS ANSWERS USING BUTTONS
-    // SCRIPT CHECKS USERS ANSWERS AGAISNT ANSWERS IN JSON FILE
-    // IF USERS ANSWER MATCHES JSON THEN THEY SCORE A POINT
-    // AT END CALCULATE POINTS OUT OF NUMBER OF QUESTIONS (10)
-    // GIVE SCORE AT END
-    // THATS IT
-    // *//
+function drawQuiz(quiz) {
+    const container = document.getElementById('quiz-container');
+
+    // Loops through each question and creates the HTML
+    quiz.forEach((question, index) => {
+        const div = document.createElement('div');
+        div.classList.add('question');
+
+        // Defines the HTML structure for each question
+        div.innerHTML = `
+            <p class="quiz-question">${question.question}</p>
+            <label>
+                <input class="quiz-answer-true" type="radio" name="q${index}" value="true"> True
+            </label>
+            <label>
+                <input class="quiz-answer-false" type="radio" name="q${index}" value="false"> False
+            </label>
+        `;
+
+        // Adds the question to the container
+        container.appendChild(div);
+    });
 }
+
+// Checks the user's answers and calculates the score
+function checkAnswers(quiz) {
+    let score = 0;
+
+    // Loops through each question
+    for (let i = 0; i < quiz.length; i++) {
+
+        const selected = document.querySelector(`input[name="q${i}"]:checked`);
+
+        if (!selected) {
+            document.getElementById('result').textContent =
+                "Please answer all questions!";
+            return;
+        }
+
+        const userAnswer = selected.value === "true";
+
+        // Compares the user's answer to the correct answer
+        if (userAnswer === quiz[i].answer) {
+            score++;
+        }
+    }
+
+    // Displays the final score on the page
+    document.getElementById('result').textContent =
+        `You got ${score} out of ${quiz.length}`;
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+
+    fetchQuiz()
+        .then(data => {
+            quizData = data;
+            drawQuiz(quizData);
+        })
+        .catch(error => {
+            console.error('Failed to fetch quiz:', error);
+        });
+    document.getElementById('submit-answers').addEventListener('click', () => {
+        checkAnswers(quizData);
+    });
+});
