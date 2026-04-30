@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenCampus</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../assets/css/quiz.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/logo.png">
+    <script src="../assets/js/quiz.js" defer></script>
 </head>
 
 <body>
@@ -15,16 +17,19 @@
         <h3>
             <nav>
                 <ul>
-                    <li><a class="btn" href="index.html">Home</a></li>
+                    <li><a class="btn" href="../index.html">Home</a></li>
                     <li><a class="btn" href="pages/events.html">Events</a></li>
                     <li><a class="btn" href="pages/tips.html"> Tips</a></li>
+                    <li><a class="btn" href="quiz.html">Quiz</a></li>
                 </ul>
             </nav>
         </h3>
     </header>
     <main>
-        <section id="Quiz">
-            
+        <section>
+            <div class="quiz-container" id="quiz-container"></div>
+            <button class="btn" id="submit-answers">Check your answers!</button>
+            <p id="result"></p>
         </section>
     </main>
     <footer>
