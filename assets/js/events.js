@@ -16,7 +16,7 @@ function drawCards(events) {
     events.forEach((event, index) => {
         const card = document.createElement('div');
         card.classList.add('event-card');
-        card.id  = `card${index}`;
+        card.id = `card${index}`;
 
         // Defines the HTML structure for the event card
         card.innerHTML = `
