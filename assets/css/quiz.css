@@ -48,4 +48,12 @@ label:has(.quiz-answer-false) {
     font-weight: bold;
 }
 
-.btn {}
+button {
+    background-color: var(--green3);
+    color: var(--green6);
+    box-shadow: none;
+    font-size: 1em;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    border: none;
+}
