@@ -28,14 +28,19 @@
 }
 
 .quiz-question {
+    text-align: center;
     font-weight: bold;
+    color: var(--green1);
+    background-color: var(--green4);
+    border-radius: 4px;
+    padding: 0.5em 1em;
 }
 
 .quiz-options{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 4vw;
+    gap: 4rem;
 }
 
 label:has(.quiz-answer-true) {
@@ -53,6 +58,7 @@ button {
     color: var(--green6);
     box-shadow: none;
     font-size: 1em;
+    margin-top: 4vh;
     padding: 0.5em 1em;
     border-radius: 4px;
     border: none;
