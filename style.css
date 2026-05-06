@@ -104,7 +104,9 @@ a {
 a:visited {
     color: var(--green1);
 }
-/* vidoe */
-video {height: 100%;
-    width: 100%;
+
+/* Video Styles */
+#video video {
+    width: 90%;
+    height: 90%;
 }
