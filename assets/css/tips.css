@@ -42,14 +42,6 @@
     margin: 0.5em 0 0 0;
     font-size: 1.2em;
 }
-        body {
-            background-image: url("../images/background.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-        }
-
         .tips-grid {
             display: grid;
             gap: 1.5rem;
@@ -69,4 +61,11 @@
         .tips-card h2 {
             margin-top: 0;
             color: var(--green1)
+
+        }
+
+        .tips-card h2 img {
+            width: 110%;
+            height: auto;
+            vertical-align: middle;
         }
