@@ -107,7 +107,44 @@ header .btn:visited {
     border-radius: 4px;
 }
 
-video {
-    width: 50%;
-    height: 50%;
+.home-layout {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2vh auto;
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.home-layout section {
+    background-color: var(--green6);
+    color: var(--green1);
+    padding: 2rem;
+    border-radius: 10px;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    min-height: 600px;
+}
+
+.home-layout section h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.home-layout article p {
+    max-width: 75ch;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 600px) {
+    .home-layout {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
 }
