@@ -1,4 +1,4 @@
-function fetchJSON() {
+function fetchEvents() {
     return fetch('../assets/data/events.json')
         .then(response => {
             if (!response.ok) {
@@ -20,10 +20,10 @@ function drawCards(events) {
 
         // Defines the HTML structure for the event card
         card.innerHTML = `
-            <h3>${event.Title}</h3>
-            <p>${event.DateTime}</p>
-            <p>${event.Location}</p>
-            <p>${event.Summary}</p>
+            <h3>${event.title}</h3>
+            <p>${event.datetime}</p>
+            <p>${event.location}</p>
+            <p>${event.summary}</p>
         `;
         // Draws the card to the container
         container.appendChild(card);
@@ -31,7 +31,7 @@ function drawCards(events) {
 }
 
 function init() {
-    fetchJSON()
+    fetchEvents()
         .then(events => {
             drawCards(events);
         })
