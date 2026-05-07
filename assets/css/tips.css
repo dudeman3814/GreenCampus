@@ -20,33 +20,35 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Tips Page */
+body {
+    background-image: url("../images/background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 
-        body {
-            background-image: url("../images/background.jpg");
-            background-size: contain;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-        }
+.tips-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    padding: 1rem 2rem 2rem;
+}
 
-        .tips-grid {
-            display: grid;
-            gap: 1.5rem;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            padding: 1rem 2rem 2rem;
-        }
+.tips-card {
+    --green-box: rgba(170, 213, 118, 0.8);
+    background: linear-gradient(var(--white) 40%, var(--green-box));
+    font-weight: bold;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    padding: 1.5rem;
+    line-height: 1.65;
+    color: var(--black)
+}
 
-        .tips-card {
-            background: rgba(255, 255, 255, 0.92);
-            border-radius: 16px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-            padding: 1.5rem;
-            line-height: 1.65;
-            color: var(--black)
-        }
-
-        .tips-card h2 {
-            margin-top: 0;
-            color: var(--green1)
-        }
+img {
+    margin-bottom: 20%;
+    max-width: 220px;
+    max-height: fit-content;
+    align-content: center;
+}

@@ -21,6 +21,7 @@
 }
 
 .quiz-container {
+    font-size: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +37,7 @@
     padding: 0.5em 1em;
 }
 
-.quiz-options{
+.quiz-options {
     display: flex;
     flex-direction: row;
     justify-content: center;

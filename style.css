@@ -106,3 +106,8 @@ header .btn:visited {
     text-decoration: none;
     border-radius: 4px;
 }
+
+video {
+    width: 50%;
+    height: 50%;
+}
