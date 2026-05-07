@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenCampus</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../assets/css/events.css">
+    <link rel="stylesheet" href="../assets/css/quiz.css">
     <link rel="icon" type="image/x-icon" href="../assets/images/logo.png">
-    <script src="../assets/js/events.js" defer></script>
+    <script src="../assets/js/quiz.js" defer></script>
 </head>
 
 <body>
     <header>
-        <h1>Events</h1>
+        <h1>Eco Knowledge Quiz</h1>
         <h3>
             <nav>
                 <ul>
                     <li><a class="btn" href="../index.html">Home</a></li>
-                    <li><a class="btn" href="events.html">Events</a></li>
-                    <li><a class="btn" href="tips.html"> Tips</a></li>
+                    <li><a class="btn" href="pages/events.html">Events</a></li>
+                    <li><a class="btn" href="pages/tips.html"> Tips</a></li>
                     <li><a class="btn" href="quiz.html">Quiz</a></li>
                 </ul>
             </nav>
         </h3>
     </header>
-
     <main>
-        <section>
-            <div id="events-container"></div>
+        <section class="quiz-container">
+            <div id="quiz-container"></div>
+            <button class="btn" id="submit-answers">Check your answers!</button>
+            <p id="result"></p>
         </section>
     </main>
     <footer>

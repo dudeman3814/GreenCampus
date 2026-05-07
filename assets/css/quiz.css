@@ -1,0 +1,65 @@
+:root {
+    /* Color palettes to be generated/named using www.coolors.co */
+
+    /* Colors Nature */
+    --green1: #143601;
+    --green2: #1A4301;
+    --green3: #245501;
+    --green4: #538D22;
+    --green5: #73A942;
+    --green6: #AAD576;
+
+    /* Colors Grayscale */
+    --white: #FFFFFF;
+    --silver: #BFBFBF;
+    --gray: #808080;
+    --gunmetal: #404040;
+    --black: #000000;
+
+    /* Stylings*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quiz-question {
+    text-align: center;
+    font-weight: bold;
+    color: var(--green1);
+    background-color: var(--green4);
+    border-radius: 4px;
+    padding: 0.5em 1em;
+}
+
+.quiz-options{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+}
+
+label:has(.quiz-answer-true) {
+    color: var(--green3);
+    font-weight: bold;
+}
+
+label:has(.quiz-answer-false) {
+    color: rgb(155, 0, 0);
+    font-weight: bold;
+}
+
+button {
+    background-color: var(--green3);
+    color: var(--green6);
+    box-shadow: none;
+    font-size: 1em;
+    margin-top: 4vh;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    border: none;
+}

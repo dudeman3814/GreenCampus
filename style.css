@@ -61,29 +61,20 @@ header {
     text-align: center;
 }
 
-header .btn,
-header .btn:visited {
-    background-color: var(--green3);
-    color: var(--green6);
-    box-shadow: none;
-    font-size: 1em;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 4px;
-}
-
 footer {
     text-align: center;
 }
 
 footer p {
     margin-bottom: 2vh;
+    font-weight: bold;
 }
 
 /* Navigation */
 
 header nav {
     text-align: center;
+    font-size: 1.1rem;
 }
 
 ul {
@@ -96,7 +87,7 @@ ul li {
     padding-inline: 1vw;
 }
 
-/* Links */
+/* Links & Buttons */
 a {
     color: var(--green6);
 }
@@ -104,15 +95,13 @@ a {
 a:visited {
     color: var(--green1);
 }
-
 /* Video Styles */
 .video-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.video-container video {
+video {
     width: 50%;
     height: 50%;
 }
