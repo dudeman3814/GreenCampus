@@ -99,6 +99,7 @@ a:visited {
 #video {
     display: flex;
     justify-content: flex-end;
+    align-items: flex-start;
 }
 video {
     width: 60%; /* Adjust width to make it not full screen */
