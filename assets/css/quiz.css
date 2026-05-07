@@ -36,7 +36,7 @@
     padding: 0.5em 1em;
 }
 
-.quiz-options{
+.quiz-options {
     display: flex;
     flex-direction: row;
     justify-content: center;
