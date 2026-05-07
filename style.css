@@ -96,12 +96,11 @@ a:visited {
     color: var(--green1);
 }
 /* Video Styles */
-.video-container {
+#video {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: flex-end;
 }
 video {
-    width: 100%;
-    height: 100%;
+    width: 60%; /* Adjust width to make it not full screen */
+    height: auto;
 }
