@@ -49,4 +49,11 @@
         .tips-card h2 {
             margin-top: 0;
             color: var(--green1)
+
+        }
+
+        .tips-card h2 img {
+            width: 110%;
+            height: auto;
+            vertical-align: middle;
         }
