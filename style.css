@@ -106,12 +106,13 @@ a:visited {
 }
 
 /* Video Styles */
-#video video {
-    width: 50%;
-    height: 50%;
-}
-# video .video-container {
+.video-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.video-container video {
+    width: 50%;
+    height: 50%;
 }
